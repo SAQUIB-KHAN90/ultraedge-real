@@ -14465,4 +14465,34 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
   border-color: #D4AF37;
 }
 
+.fixed-cta {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 9999;
+}
+
+.cta-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #25D366; /* WhatsApp green */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.cta-button.call {
+  background-color: #000; /* Black for call button */
+}
+
+.cta-button:hover {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=maps/app.css.map */
