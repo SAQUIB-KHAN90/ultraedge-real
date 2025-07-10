@@ -51,9 +51,9 @@
             &:nth-child(2n) {
                 .menu-link {
                     background-color: #ffeff3;
-                    color: #D4AF37;
+                    color: #d0a644;
                     &.active {
-                        background-color: #D4AF37;
+                        background-color: #d0a644;
                         color: #ffffff;
                     }
                 }               
@@ -205,10 +205,10 @@
             &:nth-child(2n) {
                 .accordion-button {
                     .time {
-                        color: #D4AF37;
+                        color: #d0a644;
                         background-color: #ffeff3;
                         svg {
-                            fill: #D4AF37;
+                            fill: #d0a644;
                         }
                     }
                 }
@@ -294,10 +294,10 @@
             }
             &:nth-child(2n) {
                 .menu-link {
-                    color: #D4AF37;
+                    color: #d0a644;
                     background-color: #FFE4EA;
                     &.active {
-                        background-color: #D4AF37;
+                        background-color: #d0a644;
                         color: #ffffff;
                     }
                 }
