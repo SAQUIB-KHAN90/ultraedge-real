@@ -14538,6 +14538,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 
 .custom-banner-button:hover {
   background: linear-gradient(to right, #fbbf24, #f59e0b);
+  color: #fff;
 }
 
 /* Responsive */
