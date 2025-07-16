@@ -5771,7 +5771,7 @@ section:hover .section-heading.style-three:after {
     margin-right: -5px;
 }
 
-.footer1.footer-top .footer-widgets .instagram-feed ul li {
+.footer1.footer-top .footer-widgets .instagram-feed iframe {
     padding-left: 5px;
     padding-right: 5px;
     margin-bottom: 10px;
@@ -5779,11 +5779,11 @@ section:hover .section-heading.style-three:after {
     width: 33.33333333%;
 }
 
-.footer1.footer-top .footer-widgets .instagram-feed ul li a {
+.footer1.footer-top .footer-widgets .instagram-feed iframe {
     display: block;
 }
 
-.footer1.footer-top .footer-widgets .instagram-feed ul li img {
+.footer1.footer-top .footer-widgets .instagram-feed iframe {
     border-radius: 15px;
 }
 
@@ -14652,3 +14652,10 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     font-size: 15px;
   }
 }
+
+ .instagram-feed {
+    text-align: center;
+  }
+  .snapwidget-widget {
+    border-radius: 8px;
+  }
