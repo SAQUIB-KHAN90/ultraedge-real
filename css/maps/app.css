@@ -81,7 +81,7 @@ h4,
 h5,
 h6 {
     font-weight: 400;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     margin: 0 0 20px 0;
     color: #041A57;
 }
@@ -311,7 +311,7 @@ section {
     color: #041A57;
     font-size: 16px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
@@ -341,7 +341,7 @@ section {
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 15px;
     position: relative;
     z-index: 1;
@@ -696,7 +696,7 @@ section {
 
 .entry-banner-content .breadcrumb-area .entry-breadcrumb {
     font-size: 20px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
 }
 
@@ -750,7 +750,7 @@ ul.pagination-layout1 li {
 
 ul.pagination-layout1 li a {
     font-size: 20px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -918,7 +918,7 @@ ul.pagination-layout1 li.active a {
 .section-heading .sub-title {
     color: #fff;
     margin-bottom: 5px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .section-heading .title {
@@ -1325,7 +1325,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .error-box-layout1 .sub-title {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 30px;
     color: rgb(230,207,138);
@@ -1634,7 +1634,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .about-box-layout2 .content-box .sub-description {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #041A57;
@@ -1807,7 +1807,7 @@ section:hover .section-heading.style-three:after {
     color: #ffffff;
     font-size: 75px;
     font-weight: 700;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -1832,7 +1832,7 @@ section:hover .section-heading.style-three:after {
     color: #ffffff;
     font-size: 25px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2019,7 +2019,7 @@ section:hover .section-heading.style-three:after {
     color: #ffffff;
     font-size: 75px;
     font-weight: 700;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -2044,7 +2044,7 @@ section:hover .section-heading.style-three:after {
     color: #ffffff;
     font-size: 25px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -2227,7 +2227,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .about-box-layout4 .content-box .sub-title {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: rgb(230,207,138);
     font-style: italic;
     font-weight: 500;
@@ -2564,7 +2564,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .blog-box-layout1 .figure-box .entry-date-wrap .entry-date span {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
     display: block;
@@ -2745,7 +2745,7 @@ section:hover .section-heading.style-three:after {
     color: #ffffff;
     font-size: 30px;
     line-height: 1;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 700;
     border-radius: 10px;
 }
@@ -2963,7 +2963,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .blog-box-layout3 .figure-box .entry-date-wrap .entry-date span {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 16px;
     display: block;
@@ -3201,7 +3201,7 @@ section:hover .section-heading.style-three:after {
 
 .blog-single-box .content-box blockquote:before {
     content: "\f10d";
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     position: absolute;
     left: 50px;
@@ -3327,7 +3327,7 @@ section:hover .section-heading.style-three:after {
     color: #041A57;
     background-color: #F6F6F6;
     font-size: 14px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     margin-right: 5px;
     font-weight: 500;
     display: inline-block;
@@ -3445,7 +3445,7 @@ section:hover .section-heading.style-three:after {
 .blog-single-box .content-box .blog-comments ul li .comments-content-box .reply-btn {
     font-weight: 600;
     font-size: 14px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #041A57;
     transition: all 0.3s ease-in-out;
 }
@@ -3862,7 +3862,7 @@ section:hover .section-heading.style-three:after {
     color: rgb(230,207,138);
     font-weight: 600;
     font-size: 22px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-style: italic;
     margin-bottom: 0;
 }
@@ -3928,28 +3928,28 @@ section:hover .section-heading.style-three:after {
 .contact-box-layout1 input.form-control::-webkit-input-placeholder,
 .contact-box-layout1 textarea.form-control::-webkit-input-placeholder {
     color: #9393ac;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
 
 .contact-box-layout1 input.form-control::-moz-placeholder,
 .contact-box-layout1 textarea.form-control::-moz-placeholder {
     color: #9393ac;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
 
 .contact-box-layout1 input.form-control:-moz-placeholder,
 .contact-box-layout1 textarea.form-control:-moz-placeholder {
     color: #9393ac;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
 
 .contact-box-layout1 input.form-control:-ms-input-placeholder,
 .contact-box-layout1 textarea.form-control:-ms-input-placeholder {
     color: #9393ac;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 15px;
 }
 
@@ -4013,7 +4013,7 @@ section:hover .section-heading.style-three:after {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .contact-box-layout2 .content-box .title {
@@ -4388,7 +4388,7 @@ section:hover .section-heading.style-three:after {
 .countdown-wrap-layout1 .countdown-section .countdown-number {
     text-align: center;
     font-size: 48px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 700;
     line-height: 1;
     color: #ffffff;
@@ -4419,7 +4419,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .countdown-wrap-layout1 .countdown-section .countdown-unit {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 22px;
     color: #fff;
     text-align: center;
@@ -4533,7 +4533,7 @@ section:hover .section-heading.style-three:after {
 .countdown-wrap-layout2 .countdown-section .countdown-number {
     text-align: center;
     font-size: 48px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 700;
     line-height: 1;
     color: rgb(230,207,138);
@@ -4552,7 +4552,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .countdown-wrap-layout2 .countdown-section .countdown-unit {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #fff;
     text-align: center;
@@ -4625,7 +4625,7 @@ section:hover .section-heading.style-three:after {
     font-style: italic;
     font-weight: 600;
     font-size: 22px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: rgb(230,207,138);
 }
 
@@ -4664,7 +4664,7 @@ section:hover .section-heading.style-three:after {
 .countdown-wrap-layout3 .countdown-section .countdown-number {
     text-align: center;
     font-size: 40px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 700;
     line-height: 1;
     color: #ffffff;
@@ -4689,7 +4689,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .countdown-wrap-layout3 .countdown-section .countdown-unit {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: #ffffff;
     text-align: center;
@@ -4813,7 +4813,7 @@ section:hover .section-heading.style-three:after {
     margin-bottom: 4px;
     font-size: 15px;
     font-weight: 500;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
@@ -5008,7 +5008,7 @@ section:hover .section-heading.style-three:after {
     color: #ffffff;
     font-weight: 700;
     font-size: 22px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     margin-bottom: 2px;
 }
 
@@ -5054,7 +5054,7 @@ section:hover .section-heading.style-three:after {
 
 .event-box-layout2 .content-box .location-info ul li .info-text {
     font-size: 14px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #ffffff;
 }
 
@@ -5128,7 +5128,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .event-single-box .content-box .sub-title {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-weight: 500;
     font-style: italic;
@@ -5244,7 +5244,7 @@ section:hover .section-heading.style-three:after {
     border-bottom: 1px solid #DEDEDE;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 18px;
     color: #5A5A5A;
 }
@@ -5513,7 +5513,7 @@ section:hover .section-heading.style-three:after {
 .faq-box .panel-heading .accordion-button {
     padding: 20px 65px 20px 30px;
     position: relative;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 22px;
     font-weight: 600;
     color: #041A57;
@@ -5679,7 +5679,7 @@ section:hover .section-heading.style-three:after {
 
 .footer1.footer-top .footer-widgets .footer-menu ul li a {
     position: relative;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #E5E5E5;
     transition: all 0.3s ease-in-out;
 }
@@ -5829,7 +5829,7 @@ section:hover .section-heading.style-three:after {
 }
 
 .footer2.footer-top .template-secondary-menu .menu .menu-item {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     margin-bottom: 5px;
 }
@@ -5978,7 +5978,7 @@ section:hover .section-heading.style-three:after {
     color: #ffffff;
     font-size: 48px;
     font-weight: 700;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     margin-bottom: 15px;
 }
 
@@ -6202,7 +6202,7 @@ section:hover .section-heading.style-three:after {
     font-weight: 500;
     font-size: 18px;
     color: #f2f2f2;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
@@ -6232,7 +6232,7 @@ section:hover .section-heading.style-three:after {
     font-size: 28px;
     font-weight: 500;
     color: #ffffff;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 991px) {
@@ -6250,7 +6250,7 @@ section:hover .section-heading.style-three:after {
 .footer4.footer-top .footer-address ul li.phone-style {
     font-size: 18px;
     color: #ffffff;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .footer4.footer-top .footer-address ul li.phone-style .icon-box {
@@ -6613,7 +6613,7 @@ nav.template-main-menu>ul.menu li.menu-item a {
     display: inline-block;
     font-size: 15px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     position: relative;
     transition: all 0.4s cubic-bezier(0.3, 0.02, 0, 0.6);
 }
@@ -7668,14 +7668,14 @@ nav.template-main-menu>ul.menu>li.menu-item.mega-menu.mega-menu-col-2.menu-item-
 }
 
 .header-contact-info .info-title {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #041A57;
     font-size: 16px;
     font-weight: 500;
 }
 
 .header-contact-info .info-description {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #041A57;
     font-weight: 600;
     font-size: 26px;
@@ -7949,7 +7949,7 @@ button.offcanvas-menu-btn.menu-status-close .menu-btn-icon:hover span {
     list-style: none;
     margin-right: 15px;
     margin-bottom: 10px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .offcanvas-footer ul li:last-child {
@@ -8030,7 +8030,7 @@ button.offcanvas-menu-btn.menu-status-close .menu-btn-icon:hover span {
     color: #999999;
     content: "\f067";
     display: inline-block;
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     right: 20px;
     position: absolute;
@@ -8044,7 +8044,7 @@ button.offcanvas-menu-btn.menu-status-close .menu-btn-icon:hover span {
     color: #999999;
     content: "\f068";
     display: inline-block;
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     right: 20px;
     position: absolute;
@@ -8298,7 +8298,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     color: #ffffff;
     font-weight: 600;
     font-size: 26px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     margin-bottom: 30px;
 }
 
@@ -8483,7 +8483,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     color: #ffffff;
     font-size: 30px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -9421,7 +9421,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .location-box-layout1 .map-content .list-info ul li:before {
     position: absolute;
     content: "\f111";
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: #ffffff;
     font-size: 8px;
@@ -9615,7 +9615,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .location-box-layout2 .main-content-box .item-btn {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
 }
@@ -9686,7 +9686,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     font-size: 20px;
     font-weight: 600;
     color: #ffffff;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .newsletter-box-layout1 .title {
@@ -9812,7 +9812,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     color: #ffffff;
     font-weight: 700;
     font-size: 18px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
     transition: all 0.3s ease-in-out;
 }
@@ -9945,13 +9945,13 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     margin-bottom: 8px;
     font-size: 18px;
     color: #5A5A5A;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
 .pricing-box-layout1 .pricing-description ul li:before {
     content: "\f00c";
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 12px;
     color: #ACA9A9;
@@ -10055,7 +10055,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .pricing-box-layout2 .pricing-price {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -10122,14 +10122,14 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     padding-left: 20px;
     margin-bottom: 5px;
     color: #041A57;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-style: italic;
     transition: all 0.3s ease-in-out;
 }
 
 .pricing-box-layout2 .pricing-description ul li:before {
     content: "\f00c";
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     font-size: 12px;
     color: #07EF80;
@@ -10254,7 +10254,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     color: #979595;
     font-size: 15px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
@@ -10315,7 +10315,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 
 .portfolio-box-layout2 .content-box .sub-title {
     color: #979595;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 600;
     transition: all 0.3s ease-in-out;
@@ -10390,7 +10390,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .portfolio-box-layout3 .content-box .sub-title {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #F2F2F2;
     font-size: 15px;
     font-weight: 600;
@@ -10471,7 +10471,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .portfolio-box-layout4 .content-box .sub-title {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #F2F2F2;
     font-size: 15px;
     font-weight: 600;
@@ -11013,7 +11013,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     transform: rotate(180deg);
     padding: 20px 10px;
     display: block;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 500;
     transition: all 0.3s ease-in-out;
@@ -11139,7 +11139,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     margin-bottom: 5px;
     font-size: 16px;
     font-weight: 500;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .schedule-box-layout1 .tab-content .tab-item .accordion-button .time svg {
@@ -11151,7 +11151,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     color: #E8830E;
     font-weight: 600;
     font-size: 16px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     margin-bottom: 5px;
 }
 
@@ -11936,7 +11936,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .schedule-box-layout3.schedule-content .accordion-button:after {
     background-image: inherit;
     content: "\f078";
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     position: absolute;
     z-index: 1;
@@ -11992,7 +11992,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .schedule-box-layout3.schedule-content .accordion-button .date-time-wrap .date {
     font-size: 55px;
     font-weight: 400;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #ffffff;
     line-height: 1;
     margin-right: 15px;
@@ -12007,7 +12007,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .schedule-box-layout3.schedule-content .accordion-button .date-time-wrap .month {
     font-size: 24px;
     font-weight: 400;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #ffffff;
     line-height: 1.3;
 }
@@ -12020,7 +12020,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 
 .schedule-box-layout3.schedule-content .accordion-button .date-time-wrap .time {
     font-weight: 400;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #ffffff;
 }
 
@@ -12253,7 +12253,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .schedule-box-layout4 tbody tr {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .schedule-box-layout4 tbody tr th,
@@ -12457,7 +12457,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     margin-top: 15px;
     color: #ffffff;
     font-size: 18px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     margin-right: 20px;
     display: flex;
@@ -12658,22 +12658,22 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .widget-search input.form-control::-webkit-input-placeholder {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #929090;
 }
 
 .widget-search input.form-control::-moz-placeholder {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #929090;
 }
 
 .widget-search input.form-control:-moz-placeholder {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #929090;
 }
 
 .widget-search input.form-control:-ms-input-placeholder {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #929090;
 }
 
@@ -12756,7 +12756,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .widget-recent-post .single-post .content-box .entry-date {
     font-size: 14px;
     font-style: italic;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
@@ -12824,7 +12824,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 }
 
 .widget-tag .tagcloud .tag-cloud-link {
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 15px;
     color: #041A57;
     margin: 0 5px 10px;
@@ -12939,7 +12939,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .speaker-box-layout1 .content-box .top-content .sub-title {
     color: #ffffff;
     margin-bottom: 5px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 .speaker-box-layout1 .content-box .bottom-content {
@@ -13157,7 +13157,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 
 .speaker-box-layout2 .content-box .speaker-social ul:before {
     content: "\f1e0";
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     position: absolute;
     z-index: 1;
@@ -13263,7 +13263,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .speaker-wrap-layout3 .register-content {
     color: #041A57;
     font-size: 18px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     margin-right: 20px;
     display: flex;
@@ -13703,7 +13703,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     border-bottom: 1px solid #DEDEDE;
     margin-bottom: 25px;
     padding-bottom: 25px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: #5A5A5A;
 }
@@ -13813,7 +13813,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     background-color: #fff;
     font-size: 20px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #ffffff;
     padding: 3px 13px;
     border-radius: 5px;
@@ -13833,7 +13833,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .speaker-single-event-box .sub-title {
     font-size: 20px;
     font-weight: 300;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: rgb(230,207,138);
 }
 
@@ -13949,7 +13949,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .testimonial-box-layout2 .designation {
     font-weight: 500;
     color: #5A5A5A;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
 }
 
 /*========================================================================
@@ -13997,7 +13997,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .venue-box-layout1 .content-box .venu-number {
     font-size: 18px;
     font-weight: 500;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #fff;
     transition: all 0.3s ease-in-out;
 }
@@ -14075,7 +14075,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
     color: rgb(230,207,138);
     font-size: 20px;
     font-weight: 600;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     transition: all 0.3s ease-in-out;
 }
 
@@ -14211,7 +14211,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .venu-info-box-layout1 .content-box .sub-title {
     font-weight: 500;
     font-size: 25px;
-    font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
     color: #fff;
 }
 
@@ -14284,7 +14284,7 @@ body.slidemenuon .sidebarBtn .bar:nth-child(4) {
 .venu-info-box-layout1 .list-info ul li:before {
     position: absolute;
     content: "\f111";
-    font-family: "Font Awesome 5 Free";
+   font-family: "Montserrat", sans-serif;
     font-weight: 600;
     color: rgb(230,207,138);
     font-size: 8px;
