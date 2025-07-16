@@ -65,7 +65,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     color: #5A5A5A;
-    background-color: #fff;
+    background-color: #000;
     overflow-x: hidden;
 }
 
