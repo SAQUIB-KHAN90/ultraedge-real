@@ -34,11 +34,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
     />
-
-  <!-- Animate.css -->
+  <!-- Animate.css & WOW.js -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  <!-- Wow.js -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
   <style>
@@ -47,22 +44,20 @@
       padding: 0;
       background: #000;
       font-family: 'Poppins', sans-serif;
-      color: #fff;
     }
 
     .section {
       display: flex;
       align-items: center;
       justify-content: center;
+      flex-wrap: wrap;
       padding: 100px 20px;
       position: relative;
-      flex-wrap: wrap;
     }
 
-    .image-container {
+    .image-container, .text-card {
       flex: 1;
       max-width: 600px;
-      z-index: 1;
       padding: 20px;
     }
 
@@ -73,69 +68,113 @@
     }
 
     .text-card {
-      flex: 1;
-      max-width: 480px;
-      background: #fff;
-      color: #000;
+      background: #000;
+      color: #E6CF8A;
       border-radius: 20px;
-      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 10px 50px rgba(255, 255, 255, 0.1);
       padding: 30px;
+      max-width: 480px;
       margin-left: -100px;
       z-index: 2;
       position: relative;
     }
 
-    .text-card h4 {
-      color: #3f51b5;
-      margin: 0 0 10px;
-      font-weight: 600;
-    }
-
     .text-card h2 {
       font-size: 26px;
       margin: 0 0 20px;
-    }
-
-    .text-card p {
-      color: #333;
-      line-height: 1.6;
+      color: #E6CF8A;
     }
 
     .text-card ul {
-      margin-top: 20px;
-      list-style: none;
-      padding-left: 0;
+      list-style: disc;
+      padding-left: 20px;
+      color: #E6CF8A;
     }
 
     .text-card ul li {
       margin: 10px 0;
-      font-size: 16px;
     }
 
-    .text-card ul li span {
-      color: red;
-      font-weight: bold;
-    }
-
-    .text-card a {
+    .text-card a.button {
       display: inline-block;
       margin-top: 20px;
-      text-decoration: none;
-      color: #3f51b5;
+      background: #fff;
+      color: #000;
+      padding: 10px 25px;
       font-weight: bold;
+      text-decoration: none;
+      border-radius: 5px;
     }
 
     @media (max-width: 768px) {
       .section {
         flex-direction: column;
       }
+
       .text-card {
-        margin-left: 0;
-        margin-top: -50px;
+        margin-left: 0 !important;
+        margin-top: -40px;
         text-align: center;
       }
     }
+    .page-banner {
+    background-image: url('./new/Home\ Page\ Banner.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-text {
+    text-align: center;
+    color: #fff;
+  }
+
+  .banner-text p {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .banner-text p span {
+    color: #E6CF8A;
+  }
+
+  .banner-text h1 {
+    font-size: 48px;
+    margin-top: 10px;
+    color: #E6CF8A;
+    font-weight: 700;
+  }
+
+  @media (max-width: 768px) {
+    .page-banner {
+      height: 200px;
+    }
+
+    .banner-text h1 {
+      font-size: 32px;
+    }
+
+    .banner-text p {
+      font-size: 14px;
+    }
+  }
   </style>
+ 
+
 </head>
 <body>
    <header class="header header1 sticky-on trheader" style="background-color: #000;">
@@ -252,74 +291,186 @@
                     </div>
                 </div>
             </div>
-
-<!-- Section 1: Image Left, Text Right -->
-<div class="section">
-  <div class="image-container wow animate__animated animate__fadeInLeft">
-    <img src="new/Services-1.png" alt="Image 1">
+            <section class="page-banner">
+  <div class="overlay">
+    <div class="banner-text">
+      <p>Ultraedge / SERVICES</p>
+    <span> <h1>SERVICES</h1></span> 
+    </div>
   </div>
-  <div class="text-card wow animate__animated animate__fadeInRight">
-    <h4>SERVICE ONE</h4>
-    <h2>Custom Stall Fabrication</h2>
-    <p>Tailored exhibition booths with custom themes and designs to elevate your brand presence.</p>
+</section>
+
+<!-- Section 1: Image first -->
+<!-- Section 1: Image first -->
+<div class="section">
+  <div class="image-container wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
+    <img src="new/Services-1.png" alt="Exhibition Stall">
+  </div>
+  <div class="text-card wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
+    <h2>Exhibition Stall Design & Fabrication</h2>
     <ul>
-      <li><span>• Features:</span> Double-decker, Modular, Portable</li>
-      <li><span>• Tools:</span> AutoCAD, SketchUp, 3D Renders</li>
+      <li>Custom booth designs tailored to your brand</li>
+      <li>Modular and portable stalls</li>
+      <li>Double-decker and special structure designs</li>
+      <li>3D visualization and mock-ups</li>
+      <li>Complete fabrication and installation services</li>
     </ul>
-    <a href="#">→ Explore</a>
+    <a class="button" href="services/exhibition-stall-design-fabrication.html">Explore</a>
   </div>
 </div>
 
-<!-- Section 2: Image Top, Text Bottom -->
+<!-- Section 2: Text first -->
 <div class="section">
-  <div class="image-container wow animate__animated animate__fadeInDown">
-    <img src="new/Services-2.png" alt="Image 2">
+  <div class="image-container wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s">
+    <img src="new/Services-2.png" alt="Corporate Events">
   </div>
-  <div class="text-card wow animate__animated animate__fadeInUp">
-    <h4>SERVICE TWO</h4>
-    <h2>Portable Display Stands</h2>
-    <p>Lightweight and reusable booths for trade shows and events with quick setup and takedown.</p>
+  <div class="text-card wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
+    <h2>Corporate Events</h2>
     <ul>
-      <li><span>• Types:</span> Pop-up, Roll-up, Kiosk</li>
-      <li><span>• Material:</span> PVC, MDF, Fabric Frames</li>
+      <li>Brand & product launches</li>
+      <li>Conferences & seminars</li>
+      <li>Annual general meetings</li>
+      <li>Award ceremonies</li>
+      <li>Employee engagement events</li>
     </ul>
-    <a href="#">→ View Options</a>
+    <a class="button" href="https://your-link.com">Explore</a>
   </div>
 </div>
 
-<!-- Section 3: Image Bottom, Text Top -->
+<!-- Section 3: Image first -->
 <div class="section">
-  <div class="image-container wow animate__animated animate__fadeInUp">
-    <img src="new/Services-3.png" alt="Image 3">
+  <div class="image-container wow animate__animated animate__fadeInLeft" data-wow-delay="0.1s">
+    <img src="new/Services-3.png" alt="Event Management">
   </div>
-  <div class="text-card wow animate__animated animate__fadeInDown">
-    <h4>SERVICE THREE</h4>
-    <h2>Stage & Sound Setup</h2>
-    <p>Professional audio and visual rigging including LED walls, truss systems, and DJ decks for events.</p>
+  <div class="text-card wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
+    <h2>Event Management</h2>
     <ul>
-      <li><span>• Equipment:</span> JBL, Yamaha, Shure</li>
-      <li><span>• Add-ons:</span> Smoke, Lights, LED Screens</li>
+      <li>Complete event planning & coordination</li>
+      <li>Venue selection & logistics</li>
+      <li>Guest handling & hospitality</li>
+      <li>Stage setup, sound, and lighting</li>
+      <li>Seamless on-ground execution</li>
     </ul>
-    <a href="#">→ See Packages</a>
+    <a class="button" href="https://your-link.com">Explore</a>
   </div>
 </div>
 
-<!-- Section 4: Image Left, Text Right -->
+<!-- Section 4: Text first with Explore button -->
 <div class="section">
-  <div class="image-container wow animate__animated animate__fadeInLeft">
-    <img src="new/Services-4.png" alt="Image 4">
+  <div class="image-container wow animate__animated animate__fadeInLeft" data-wow-delay="0.6s">
+    <img src="new/Services-4.png" alt="Creative Design">
   </div>
-  <div class="text-card wow animate__animated animate__fadeInRight">
-    <h4>SERVICE FOUR</h4>
-    <h2>Pan India Event Execution</h2>
-    <p>From concept to completion, we handle logistics, fabrication, and on-ground management nationwide.</p>
+  <div class="text-card wow animate__animated animate__fadeInRight" data-wow-delay="0.1s">
+    <h2>Creative Design Solutions</h2>
     <ul>
-      <li><span>• Coverage:</span> Delhi NCR, Mumbai, Bangalore</li>
-      <li><span>• Support:</span> Team & Transport Included</li>
+      <li>3D event layouts and stall designs</li>
+      <li>Stage and thematic concepts</li>
+      <li>Branding panels and digital content</li>
+      <li>Promotional material and event collaterals</li>
     </ul>
-    <a href="#">→ Contact Us</a>
+    <a class="button" href="https://your-link.com">Explore</a>
   </div>
 </div>
+
+
+
+
+<!-- footer -->
+
+  <footer class="footer-wrap-layout1" style="background-color: #000;">
+                <div class="footer1 footer-top" style="background-color: #000;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.1s" data-wow-duration="1s">
+                                <div class="footer-widgets">
+                                    <a href="index.html" class="footer-logo"><img src="image/_logo (2).png" alt="Footer Logo" width="200" height="37"></a>
+                                    <p class="description" style="text-align: left; font-family: 'Montserrat', sans-serif;">Ultraedge Brand is a forward-thinking event and exhibition company, founded to transform the way brands engage with their audiences.</p>
+                                    <ul class="footer-social">
+                                        <li>
+                                            <a target="_blank" href="https://www.facebook.com/profile.php?id=61577747139431" class="facebook"><i
+                                        class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a target="_blank" href="https://www.linkedin.com/in/ultraedge-brand-421830373/" class="linkedin"><i
+                                        class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.instagram.com/ultrasedge_social/" class="instagram"><i
+                                        class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a target="_blank" href="https://www.pinterest.com/deepakultrasedge/" class="pinterest"><i
+                                        class="fab fa-pinterest-p"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
+                                <div class="footer-widgets" style="margin-left: 10px;">
+                                    <h3 class="widget-title" style="margin-bottom: 8px;">Quick Links</h3>
+                                    <div class="footer-menu">
+                                        <ul>
+                                            <li>
+                                                <a href="contact.html">Exhibition Stall Design & Fabrication
+</a>
+                                            </li>
+                                            <li><a href="contact.html">Corporate Events
+</a></li>
+                                            <li><a href="about.html">   Event Management
+</a></li>
+                                           
+                                            <li><a href="contact.html">Creative Design Solutions
+                                                <li><a href="terms-and-condition.html">Terms and Conditions</a></li>
+</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.5s" data-wow-duration="1s">
+                                <div class="footer-widgets">
+                                    <h3 class="widget-title" style="margin-bottom: 8px;">Others</h3>
+                                    <div class="footer-menu">
+                                        <ul>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">Career</a></li>
+                                            <li><a href="#">1832 Tower D , 11 Avenue, Gaur City 2, 
+Greater Noida West, Gautam Budha Nagar UP- 201009</a></li>
+                                            <li><a href="#">+91 98734 93223
+</a></li>
+                                            <li><a href="#">deepak.singh@ultraedgebrand.com 
+</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.7s" data-wow-duration="1s">
+                               <div class="footer-widgets">
+  <h3 class="widget-title">Instagram</h3>
+  <div class="instagram-feed" style="padding: 10px 0;">
+    <!-- SnapWidget Embed -->
+    <iframe 
+      src="https://snapwidget.com/embed/1102903" 
+      class="snapwidget-widget" 
+      allowtransparency="true" 
+      frameborder="0" 
+      scrolling="no" 
+      style="border:none; overflow:hidden; width:265px; height:200px;" 
+      title="Posts from Instagram">
+    </iframe>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;"></div>
+  </div>
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer1 footer-bottom" style="background-color: #000;">
+                    <div class="copyright-text">&copy;<span id="currentYear"></span><a href="https://www.theneedleads.com/" class="link-text" rel="nofollow">Design and Developed by Needleads Technology.</a></div>
+                </div>
+            </footer>
+
 
 <!-- WOW Init -->
 <script>
