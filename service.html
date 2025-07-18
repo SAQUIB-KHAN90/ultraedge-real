@@ -1,27 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Ultraedge || Services 
-    </title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image5/x-icon" href="image/LOGO FINAL.png">
+  <meta charset="UTF-8">
+  <title>Ultraedge</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" type="image/x-icon" href="image/LOGO FINAL.png">
     <!-- Dependency Styles -->
-    <link rel="stylesheet" href="assets5/wow/animate.css">
-    <link rel="stylesheet" href="assets5/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets5/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="assets5/magnific-popup/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets5/swiper/css/swiper.min.css">
-    <link rel="stylesheet" href="css5/app.css">
-    <!-- Google Web Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-     <link rel="shortcut icon" type="image/x-icon" href="image/LOGO FINAL.png">
-    <!-- Dependency Styles -->
-    
+    <link rel="stylesheet" href="assets/wow/animate.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/magnific-popup/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/app.css">
      <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
@@ -44,64 +34,111 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
     />
-    <style>
-          .body {
-          background: linear-gradient(135deg, #1A1A1A 0%, #2D2D2D 50%, #1A1A1A 100%);
-          min-height: 100vh;
-      }
 
-      .modal-overlay {
-          background: linear-gradient(135deg, rgba(26, 26, 26, 0.95) 0%, rgba(45, 45, 45, 0.95) 50%, rgba(26, 26, 26, 0.95) 100%);
-      }
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- Wow.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-      .gold-gradient {
-          background: linear-gradient(135deg, rgb(230,207,138) 0%, #FFD700 50%, rgb(230,207,138) 100%);
-      }
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      font-family: 'Poppins', sans-serif;
+      color: #fff;
+    }
 
-      .input-focus:focus {
-          border-color: rgb(230,207,138);
-          box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
-      }
+    .section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 100px 20px;
+      position: relative;
+      flex-wrap: wrap;
+    }
 
-      .event-image {
-          background-size: cover;
-          background-position: center;
-          position: relative;
-      }
+    .image-container {
+      flex: 1;
+      max-width: 600px;
+      z-index: 1;
+      padding: 20px;
+    }
 
-      .event-image::after {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: linear-gradient(45deg, rgba(212, 175, 55, 0.2) 0%, rgba(26, 26, 26, 0.3) 100%);
-      }
+    .image-container img {
+      width: 100%;
+      border-radius: 16px;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+    }
 
-    </style>
+    .text-card {
+      flex: 1;
+      max-width: 480px;
+      background: #fff;
+      color: #000;
+      border-radius: 20px;
+      box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+      padding: 30px;
+      margin-left: -100px;
+      z-index: 2;
+      position: relative;
+    }
+
+    .text-card h4 {
+      color: #3f51b5;
+      margin: 0 0 10px;
+      font-weight: 600;
+    }
+
+    .text-card h2 {
+      font-size: 26px;
+      margin: 0 0 20px;
+    }
+
+    .text-card p {
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .text-card ul {
+      margin-top: 20px;
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .text-card ul li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .text-card ul li span {
+      color: red;
+      font-weight: bold;
+    }
+
+    .text-card a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #3f51b5;
+      font-weight: bold;
+    }
+
+    @media (max-width: 768px) {
+      .section {
+        flex-direction: column;
+      }
+      .text-card {
+        margin-left: 0;
+        margin-top: -50px;
+        text-align: center;
+      }
+    }
+  </style>
 </head>
-
 <body>
-    <!-- Add your site or application content here -->
-    <!-- <div id="preloader" class="preloader">
-        <div class="preloader-inner-wrap">
-            <div class="preloader-inner">
-                <div class="main-loader">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="wrapper" id="wrapper">
-        <div id="main_content">
-            <!--=====================================-->
-            <!--=            Navbar Start           =-->
-            <!--=====================================-->
-            <header class="header header1 sticky-on trheader" style="background-color: #000;">
+   <header class="header header1 sticky-on trheader" style="background-color: #000;">
                 <div id="sticky-placeholder"></div>
                 <div id="navbar-wrap" class="navbar-wrap">
                     <div class="header-menu" style="background-color: #000;">
@@ -147,7 +184,7 @@
                                         </nav>
                                         <ul class="header-action-items">
                                             
-                                           <a href="javascript:void(0);" onclick="openEventModal()" class="item-btn btn-fill style-one" style="background-color: #000;">Plan Your Event</a>
+                                           <a href="javascript:void(0);" onclick="openEventModal()" class="item-btn btn-fill style-one" style="background-color: #000;">Book Now</a>
 
                                             <li class="header-action-item" style="color: #000;">
                                                 <button style="color: #000;" type="button" class="offcanvas-menu-btn style-one menu-status-open">
@@ -215,610 +252,79 @@
                     </div>
                 </div>
             </div>
-            <!--=====================================-->
-            <!--=              Navbar End           =-->
-            <!--=====================================-->
-            <!--=====================================-->
-            <!--=    Inne Page Banner Area Start    =-->
-            <!--=====================================-->
-            <!-- start inner-banner -->
-            <section class="inner-page-banner inner-banner-5" data-bg-image="image5/banner/inner-banner5.jpg">
-                <div class="container">
-                    <div class="entry-banner-content">
-                        <div class="breadcrumb-area">
-                            <div class="entry-breadcrumb">
-                                <span>
-                        <a href="index.html" class="home">Ultraedge</a>
-                    </span>
-                                <em class="delimiter">/</em>
-                                <span class="current">Service info</span>
-                            </div>
-                        </div>
-                        <h1 class="entry-title">SERVICE INFO</h1>
-                    </div>
-                </div>
-            </section>
-            <!--=====================================-->
-            <!--=     Inne Page Banner Area End     =-->
-            <!--=====================================-->
-            <!--=====================================-->
-            <!--=      Venu Section Area Start      =-->
-            <!--=====================================-->
-            <section class="venu-info-wrap-layout1" style="background-color: #000;">
-                <div class="container">
-                    <div class="row align-items-end">
-                        <div class="col-lg-5 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="figure-box">
-                                    <img src="image5/venu/3.jpg" alt="Venu" width="752" height="848">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 wow fadeInRight animated" data-wow-delay="0.7s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="content-box" style="background-color: #000;">
-                                    
-                                    <h2 class="title" style="color: #fff;">Exhibition Stall Design & Fabrication
-</h2>
-                                    
-                                    <div class="list-info">
-                                        <ul>
-                                            <li>Custom booth designs tailored to your brand
-                                            </li>
-                                            <li>Modular and portable stalls
-                                            </li>
-                                             <li>Double-decker and special structure designs
 
-                                            </li>
-                                             <li>3D visualization and mock-ups
-
-                                            </li>
-                                             <li>Complete fabrication and installation services
-
-                                            </li>
-                                        <a href="services/exhibition-stall-design-fabrication.html">  <button onclick="" class="bg-white hover:bg-[#E6CF8A] text-black font-bold py-2 px-4 rounded">
-  Button
-</button></a> 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-             <section class="venu-info-wrap-layout1">
-                <div class="container">
-                    <div class="row align-items-end">
-                        <div class="col-lg-5 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="figure-box">
-                                    <img src="image5/venu/3.jpg" alt="Venu" width="752" height="848">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 wow fadeInRight animated" data-wow-delay="0.7s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="content-box" style="background-color: #000;">
-                                    
-                                    <h2 class="title" style="color: #fff ;">Corporate Events
-
-</h2>
-                                    
-                                    <div class="list-info">
-                                        <ul>
-                                            <li>Brand & product launches
-
-                                            </li>
-                                            <li>Conferences & seminars
-
-                                            </li>
-                                             <li>Annual general meetings
-
-
-                                            </li>
-                                             <li>Award ceremonies
-
-
-                                            </li>
-                                             <li>Employee engagement events
-
-                                            </li>
-                                             <button class="bg-white hover:bg-[#E6CF8A] text-black font-bold py-2 px-4 rounded">
-  Button
-</button>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-             <section class="venu-info-wrap-layout1">
-                <div class="container">
-                    <div class="row align-items-end">
-                        <div class="col-lg-5 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="figure-box">
-                                    <img src="image5/venu/3.jpg" alt="Venu" width="752" height="848">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 wow fadeInRight animated" data-wow-delay="0.7s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="content-box" style="background-color: #000;">
-                                    
-                                    <h2 class="title" style="color: #fff ;">Event Management
-
-</h2>
-                                    
-                                    <div class="list-info">
-                                        <ul>
-                                            <li>Complete event planning & coordination
-
-                                            </li>
-                                            <li>Venue selection & logistics
-
-                                            </li>
-                                             <li>Guest handling & hospitality
-
-
-                                            </li>
-                                             <li>Stage setup, sound, and lighting
-
-
-                                            </li>
-                                             <li>Seamless on-ground execution
-
-                                            </li>
-                                              <button class="bg-white hover:bg-[#E6CF8A] text-black font-bold py-2 px-4 rounded">
-  Button
-</button>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-             <section class="venu-info-wrap-layout1">
-                <div class="container">
-                    <div class="row align-items-end">
-                        <div class="col-lg-5 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="figure-box">
-                                    <img src="image5/venu/3.jpg" alt="Venu" width="752" height="848">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-7 wow fadeInRight animated" data-wow-delay="0.7s" data-wow-duration="1s">
-                            <div class="venu-info-box-layout1">
-                                <div class="content-box" style="background-color: #000;">
-                                    
-                                    <h2 class="title" style="color: #fff ;">Creative Design Solutions
-
-</h2>
-                                    
-                                    <div class="list-info">
-                                        <ul>
-                                            <li>3D event layouts and stall designs
-
-                                            </li>
-                                            <li>Stage and thematic concepts
-
-                                            </li>
-                                             <li>Branding panels and digital content
-
-
-                                            </li>
-                                             <li>3D visualization and mock-ups
-
-                                            </li>
-                                             <li>Promotional material and event collaterals
-
-
-                                            </li>
-                                            <button class="bg-white hover:bg-[#E6CF8A] text-black font-bold py-2 px-4 rounded">
-  Button
-</button>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--=====================================-->
-            <!--=       Venu Section Area End       =-->
-            <!--=====================================-->
-            <!--=====================================-->
-            <!--=   Facility Section Area Start     =-->
-            <!--=====================================-->
-          
-            <!--=====================================-->
-            <!--=     Footer Section Area Start     =-->
-            <!--=====================================-->
-                 <footer class="footer-wrap-layout1" style="background-color: #000;">
-                <div class="footer1 footer-top" style="background-color: #000;">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.1s" data-wow-duration="1s">
-                                <div class="footer-widgets">
-                                    <a href="index.html" class="footer-logo"><img src="image/_logo (2).png" alt="Footer Logo" width="200" height="37"></a>
-                                    <p class="description" style="text-align: left; font-family: 'Montserrat', sans-serif;">Ultraedge Brand is a forward-thinking event and exhibition company, founded to transform the way brands engage with their audiences.</p>
-                                    <ul class="footer-social">
-                                        <li>
-                                            <a target="_blank" href="https://www.facebook.com/profile.php?id=61577747139431" class="facebook"><i
-                                        class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        
-                                        <li>
-                                            <a target="_blank" href="https://www.linkedin.com/in/ultraedge-brand-421830373/" class="linkedin"><i
-                                        class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="https://www.instagram.com/ultrasedge_social/" class="instagram"><i
-                                        class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a target="_blank" href="https://www.pinterest.com/deepakultrasedge/" class="pinterest"><i
-                                        class="fab fa-pinterest-p"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.3s" data-wow-duration="1s">
-                                <div class="footer-widgets" style="margin-left: 10px;">
-                                    <h3 class="widget-title" style="margin-bottom: 8px;">Quick Links</h3>
-                                    <div class="footer-menu">
-                                        <ul>
-                                            <li>
-                                                <a href="contact.html">Exhibition Stall Design & Fabrication
-</a>
-                                            </li>
-                                            <li><a href="contact.html">Corporate Events
-</a></li>
-                                            <li><a href="about.html">   Event Management
-</a></li>
-                                           
-                                            <li><a href="contact.html">Creative Design Solutions
-                                                <li><a href="terms-and-condition.html">Terms and Conditions</a></li>
-</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.5s" data-wow-duration="1s">
-                                <div class="footer-widgets">
-                                    <h3 class="widget-title" style="margin-bottom: 8px;">Others</h3>
-                                    <div class="footer-menu">
-                                        <ul>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Career</a></li>
-                                            <li><a href="#">1832 Tower D , 11 Avenue, Gaur City 2, 
-Greater Noida West, Gautam Budha Nagar UP- 201009</a></li>
-                                            <li><a href="#">+91 98734 93223
-</a></li>
-                                            <li><a href="#">deepak.singh@ultraedgebrand.com 
-</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft animated" data-wow-delay="0.7s" data-wow-duration="1s">
-                               <div class="footer-widgets">
-  <h3 class="widget-title">Instagram</h3>
-  <div class="instagram-feed" style="padding: 10px 0;">
-    <!-- SnapWidget Embed -->
-    <iframe 
-      src="https://snapwidget.com/embed/1102903" 
-      class="snapwidget-widget" 
-      allowtransparency="true" 
-      frameborder="0" 
-      scrolling="no" 
-      style="border:none; overflow:hidden; width:265px; height:200px;" 
-      title="Posts from Instagram">
-    </iframe>
-    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 2;"></div>
+<!-- Section 1: Image Left, Text Right -->
+<div class="section">
+  <div class="image-container wow animate__animated animate__fadeInLeft">
+    <img src="new/Services-1.png" alt="Image 1">
+  </div>
+  <div class="text-card wow animate__animated animate__fadeInRight">
+    <h4>SERVICE ONE</h4>
+    <h2>Custom Stall Fabrication</h2>
+    <p>Tailored exhibition booths with custom themes and designs to elevate your brand presence.</p>
+    <ul>
+      <li><span>• Features:</span> Double-decker, Modular, Portable</li>
+      <li><span>• Tools:</span> AutoCAD, SketchUp, 3D Renders</li>
+    </ul>
+    <a href="#">→ Explore</a>
   </div>
 </div>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer1 footer-bottom" style="background-color: #000;">
-                    <div class="copyright-text">&copy;<span id="currentYear"></span><a href="https://www.theneedleads.com/" class="link-text" rel="nofollow">Design and Developed by Needleads Technology.</a></div>
-                </div>
-            </footer>
-            <!--=====================================-->
-            <!--=      Footer Section Area End      =-->
-            <!--=====================================-->
-        </div>
-        <!-- Offcanvas Menu Start -->
-        <div class="offcanvas-menu-wrap" id="offcanvas-wrap" data-position="right">
-            <div class="offcanvas-header">
-                <span class="header-text">Close</span>
-                <button type="button" class="offcanvas-menu-btn menu-status-close offcanvas-close">
-          <span class="menu-btn-icon">
-							<span></span>
-          <span></span>
-          <span></span>
-          </span>
-        </button>
-            </div>
-            <div class="offcanvas-content">
-                <div class="top-content">
-                    <div class="offcanvas-logo">
-                        <a href="index.html"><img src="image/_logo (2).png" alt="logo" width="200" height="37"></a>
-                    </div>
-                    <p>Ultraedge Brand is a forward-thinking event and exhibition company, founded to transform the way brands engage with their audiences.
-                    </p>
-                </div>
-                <h2>@my_event_day</h2>
-                <div class="sub-title">Event Details</div>
-                <ul class="info">
-                    <li>Sunday, 05 November 2017</li>
-                    <li>2:00 PM – 3:30 PM</li>
-                    <li>Mas Montagnette,</li>
-                    <li>198 West 21th Street, NY</li>
-                    <li>+1 485-048-1995</li>
-                </ul>
-                <a href="contact.html" class="text-btn">View map</a>
-            </div>
-            <div class="offcanvas-footer">
-                <ul>
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61577747139431">Facebook</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.pinterest.com/deepakultrasedge/">Pinterest</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.youtube.com/@DeepakUltrasedge">Youtube</a>
-                    </li>   
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/ultrasedge_social/">Instagram</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- Offcanvas Menu End -->
-        <!-- Search Start -->
-       
-        <!-- Search End -->
-    </div>
-    <div class="fixed-cta">
-  <a href="https://wa.link/qjut10" class="cta-button whatsapp" target="_blank" title="Chat on WhatsApp">
-    <img src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="WhatsApp" />
-  </a>
-  <a href="tel:+91 98734 93223
-" class="cta-button call" title="Call Now">
-    <img src="https://img.icons8.com/ios-filled/30/ffffff/phone.png" alt="Call" />
-  </a>
-</div>
-<!-- MODAL CONTAINER -->
-<div id="eventModal" style="display: none; position: fixed; inset: 0; z-index: 50; backdrop-filter: blur(4px);" class="overflow-y-auto h-screen">
-  <div class="min-h-full flex items-center justify-center p-4">
-<div class="min-h-screen flex items-center justify-center p-4">
-      <div
-        class="modal-overlay rounded-3xl max-w-6xl w-full flex shadow-2xl overflow-hidden"
-      >
-        <div class="flex-1 p-12">
-          <div class="flex justify-between items-start mb-8">
-            <div>
-              <h1 class="text-4xl font-playfair font-bold text-white mb-3">
-                Turn Your Event Ideas into Reality
-              </h1>
-              <p class="text-gray-300 text-lg">
-                Share your event needs, and
-                <span class="font-semibold"
-                style="color: rgb(230,207,138);"
-                  >Ultraedge Brand</span
-                >
-                will bring them to life. Let's get started!
-              </p>
-            </div>
-           <button
-  id="closeModalBtn"
-  class="w-10 h-10 flex items-center justify-center bg-black bg-opacity-10 rounded-full text-white hover:bg-opacity-20 transition-all"
->
-  <i class="fas fa-xmark text-xl"></i>
-</button>
-
-          </div>
-
-          <form class="space-y-6">
-            <div class="grid grid-cols-2 gap-6">
-              <div>
-                <label class="block text-white font-medium mb-2">Name</label>
-                <input
-                  type="text"
-                  placeholder="Enter your name"
-                  class="w-full px-4 py-3 bg-white rounded-lg text-secondary placeholder-gray-500 input-focus border border-transparent transition-all"
-                />
-              </div>
-              <div>
-                <label class="block text-white font-medium mb-2">Email</label>
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  class="w-full px-4 py-3 bg-white rounded-lg text-secondary placeholder-gray-500 input-focus border border-transparent transition-all"
-                />
-              </div>
-            </div>
-
-            <div class="grid grid-cols-2 gap-6">
-              <div>
-                <label class="block text-white font-medium mb-2">Phone</label>
-                <input
-                  type="tel"
-                  placeholder="Enter your phone number"
-                  class="w-full px-4 py-3 bg-white rounded-lg text-secondary placeholder-gray-500 input-focus border border-transparent transition-all"
-                />
-              </div>
-              <div>
-                <label class="block text-white font-medium mb-2"
-                  >Who Are You</label
-                >
-                <div class="relative">
-                  <select
-                    class="w-full px-4 py-3 bg-white rounded-lg text-secondary appearance-none pr-10 input-focus border border-transparent transition-all"
-                  >
-                    <option value="">Select</option>
-                    <option value="individual">Individual Client</option>
-                    <option value="corporate">Corporate Client</option>
-                    <option value="wedding">Wedding Planner</option>
-                    <option value="organization">Organization</option>
-                  </select>
-                  <div
-                    class="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 flex items-center justify-center"
-                  >
-                    <i class="ri-arrow-down-s-line text-primary"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="grid grid-cols-2 gap-6">
-              <div>
-                <label class="block text-white font-medium mb-2"
-                  >Service Looking For</label
-                >
-                <div class="relative">
-                  <select
-                    class="w-full px-4 py-3 bg-white rounded-lg text-secondary appearance-none pr-10 input-focus border border-transparent transition-all"
-                  >
-                    <option value="">Select</option>
-                    <option value="wedding">Wedding Planning</option>
-                    <option value="corporate">Corporate Events</option>
-                    <option value="birthday">Birthday Parties</option>
-                    <option value="conference">Conferences</option>
-                    <option value="gala">Gala Dinners</option>
-                  </select>
-                  <div
-                    class="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5 flex items-center justify-center"
-                  >
-                    <i class="ri-arrow-down-s-line text-primary"></i>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <label class="block text-white font-medium mb-2"
-                  >Event Days</label
-                >
-                <input
-                  type="number"
-                  placeholder="Number of event days"
-                  min="1"
-                  class="w-full px-4 py-3 bg-white rounded-lg text-secondary placeholder-gray-500 input-focus border border-transparent transition-all"
-                />
-              </div>
-            </div>
-
-            <div class="grid grid-cols-2 gap-6">
-              <div>
-                <label class="block text-white font-medium mb-2">State</label>
-                <input
-                  type="text"
-                  placeholder="Enter your state"
-                  class="w-full px-4 py-3 bg-white rounded-lg text-secondary placeholder-gray-500 input-focus border border-transparent transition-all"
-                />
-              </div>
-              <div>
-                <label class="block text-white font-medium mb-2">City</label>
-                <input
-                  type="text"
-                  placeholder="Enter your city"
-                  class="w-full px-4 py-3 bg-white rounded-lg text-secondary placeholder-gray-500 input-focus border border-transparent transition-all"
-                />
-              </div>
-            </div>
-
-            <div>
-              <label class="block text-white font-medium mb-2">Message</label>
-              <textarea
-                rows="4"
-                placeholder="Tell us about your dream event..."
-                class="w-full px-4 py-3 bg-white rounded-lg text-secondary placeholder-gray-500 input-focus border border-transparent transition-all resize-none"
-              ></textarea>
-            </div>
-
-            <button
-            style="background-color: rgb(230,207,138);"
-              type="submit"
-              class="w-full text-white font-semibold py-4 rounded-button text-lg hover:shadow-lg transform hover:scale-105 transition-all duration-200 !rounded-button whitespace-nowrap"
-            >
-              Turn Your Event Ideas into Reality
-            </button>
-          </form>
-        </div>
-
-        <div class="w-96 relative overflow-hidden">
-          <div class="h-full flex flex-col">
-            <div
-              class="flex-1 event-image"
-              style="background-image: url('image/11.png')"
-            ></div>
-            <div
-              class="flex-1 event-image"
-              style="background-image: url('image/12.png')"
-            ></div>
-            <div
-              class="flex-1 event-image"
-              style="background-image: url('image/13.png')"
-            ></div>
-          </div>
-
-        
-        </div>
-      </div>
-    </div>
+<!-- Section 2: Image Top, Text Bottom -->
+<div class="section">
+  <div class="image-container wow animate__animated animate__fadeInDown">
+    <img src="new/Services-2.png" alt="Image 2">
+  </div>
+  <div class="text-card wow animate__animated animate__fadeInUp">
+    <h4>SERVICE TWO</h4>
+    <h2>Portable Display Stands</h2>
+    <p>Lightweight and reusable booths for trade shows and events with quick setup and takedown.</p>
+    <ul>
+      <li><span>• Types:</span> Pop-up, Roll-up, Kiosk</li>
+      <li><span>• Material:</span> PVC, MDF, Fabric Frames</li>
+    </ul>
+    <a href="#">→ View Options</a>
   </div>
 </div>
- <script>
-  function openEventModal() {
-    const modal = document.getElementById("eventModal");
-    if (modal) {
-      modal.style.display = "block";
-      modal.style.opacity = "1";
-      modal.style.transform = "scale(1)";
-    }
-  }
 
-  function closeEventModal() {
-    const modal = document.getElementById("eventModal");
-    if (modal) {
-      modal.style.transform = "scale(0.95)";
-      modal.style.opacity = "0";
-      setTimeout(() => {
-        modal.style.display = "none";
-      }, 300);
-    }
-  }
+<!-- Section 3: Image Bottom, Text Top -->
+<div class="section">
+  <div class="image-container wow animate__animated animate__fadeInUp">
+    <img src="new/Services-3.png" alt="Image 3">
+  </div>
+  <div class="text-card wow animate__animated animate__fadeInDown">
+    <h4>SERVICE THREE</h4>
+    <h2>Stage & Sound Setup</h2>
+    <p>Professional audio and visual rigging including LED walls, truss systems, and DJ decks for events.</p>
+    <ul>
+      <li><span>• Equipment:</span> JBL, Yamaha, Shure</li>
+      <li><span>• Add-ons:</span> Smoke, Lights, LED Screens</li>
+    </ul>
+    <a href="#">→ See Packages</a>
+  </div>
+</div>
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const closeBtn = document.getElementById("closeModalBtn");
-    if (closeBtn) {
-      closeBtn.addEventListener("click", closeEventModal);
-    }
-  });
+<!-- Section 4: Image Left, Text Right -->
+<div class="section">
+  <div class="image-container wow animate__animated animate__fadeInLeft">
+    <img src="new/Services-4.png" alt="Image 4">
+  </div>
+  <div class="text-card wow animate__animated animate__fadeInRight">
+    <h4>SERVICE FOUR</h4>
+    <h2>Pan India Event Execution</h2>
+    <p>From concept to completion, we handle logistics, fabrication, and on-ground management nationwide.</p>
+    <ul>
+      <li><span>• Coverage:</span> Delhi NCR, Mumbai, Bangalore</li>
+      <li><span>• Support:</span> Team & Transport Included</li>
+    </ul>
+    <a href="#">→ Contact Us</a>
+  </div>
+</div>
+
+<!-- WOW Init -->
+<script>
+  new WOW().init();
 </script>
-    <!-- Dependency Scripts -->
-    <script src="assets5/jquery/jquery.min.js"></script>
-    <script src="assets5/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets5/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets5/magnific-popup/js/magnific-popup.min.js"></script>
-    <script src="assets5/countdown/js/jquery.countdown.min.js"></script>
-    <script src="assets5/wow/wow.min.js"></script>
-    <script src="assets5/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets5/swiper/js/swiper.min.js"></script>
-    <script src="assets5/validator/validator.min.js"></script>
-    <!-- Custom Script -->
-    <script src="js/app.js"></script>
-</body>
 
+</body>
 </html>
